@@ -1,0 +1,16 @@
+> use assignment
+> db.users.insert({"first_name":"Sunita"},{"last_name":"Sabale"},{"email":"abc@gmail.com"},{"gender":"female"},{"ip_address":"123.345.454.8"})
+> db.users.insertMany([{"first_name":"Ganesh"},{"fisrt_name":"Vivek"}])
+> db.users.insert({"first_name":"Sunita"},{"last_name":"S"},{"email":"abc123@gmail.com"},{"gender":"female"},{"ip_address":"121.345.454.8"})
+> db.users.insert({"first_name":"Shruti"},{"last_name":"bhosale"},{"email":"abc12@gmail.com"},{"gender":"female"},{"ip_address":"122.345.454.8"})
+> db.users.insert({"first_name":"Sanika"},{"last_name":"Sabale"},{"email":"abc@gmail.com"},{"gender":"female"},{"ip_address":"123.345.454.8"})
+> db.users.insert({"first_name":"Sudha"},{"last_name":"Sabale"},{"email":"abc@gmail.com"},{"gender":"female"},{"ip_address":"123.345.454.8"})
+> db.users.insert({"first_name":"Sai"},{"last_name":"Sabale"},{"email":"abc@gmail.com"},{"gender":"female"},{"ip_address":"123.345.454.8"})
+> db.users.insert({"first_name":"Sejal"},{"last_name":"Sabale"},{"email":"abc@gmail.com"},{"gender":"female"},{"ip_address":"123.345.454.8"})
+> db.users.insert({"first_name":"Smeeta"},{"last_name":"Sabale"},{"email":"abc@gmail.com"},{"gender":"female"},{"ip_address":"123.345.454.8"})
+> db.users.insert({"first_name":"Suni"},{"last_name":"Sabale"},{"email":"abc@gmail.com"},{"gender":"female"},{"ip_address":"123.345.454.8"})
+> db.users.find({}).pretty();
+> db.users.findOne({"first_name":"Sunita"},{"email":"abc123@gmail.com"})
+> db.users.remove({"first_name":"Sunita"});
+> db.users.findOneAndDelete({"email":"abc@gmail.com"})
+> db.dropDatabase()
